@@ -1,0 +1,143 @@
+:root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+    --default-text-color: #FFBA08;
+    --main-bg-color: #070600;
+    --bright-blue: #EAF6FF;
+    --dark-cyan: #048A81;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    font-family: "'Dancing Script', cursive";
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(var(--main-bg-color));
+    color: hsl(var(--main-text-color));
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-family: Bodoni;
+    margin: 0;
+    line-height: inherit;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.content{
+    top: 10rem;
+    left: 0rem;
+    right: 0rem;
+}
+
+.container {
+    font-weight: 100%;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-text-color);
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+
+.bg-primary1 {
+    background-color: var(--main-bg-color);
+}
+
+.bg-primary2 {
+    background-color: var(--dark-cyan);
+}
+
+.text-primary1 {
+    color: var(--bright-blue);
+}
+
+.text-primary3 {
+    color: var(--default-text-color);
+}
+
+
+
+
+.width-20rem {
+    width: 20rem;
+    height: 20rem;
+}
+
+.width-2rem {
+    width: 2rem;
+    height: 2rem;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.top-0{
+    top: 0rem;
+}
+
+.left-0{
+    left: 0rem;
+}
+
+.right-0{
+    right: 0rem;
+}
+
+.z-10{
+    z-index: 10;
+}
+
+.z-50{
+    z-index: 50;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
