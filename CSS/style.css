@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
@@ -27,7 +29,7 @@
     --default-text-color: #FFBA08;
     --main-bg-color: #070600;
     --bright-blue: #EAF6FF;
-    --dark-cyan: #048A81;
+    --dark-cyan: #840032;
 }
 
 html {
@@ -95,49 +97,4 @@ header {
 
 .text-primary3 {
     color: var(--default-text-color);
-}
-
-
-
-
-.width-20rem {
-    width: 20rem;
-    height: 20rem;
-}
-
-.width-2rem {
-    width: 2rem;
-    height: 2rem;
-}
-
-.fixed {
-    position: fixed;
-}
-
-.top-0{
-    top: 0rem;
-}
-
-.left-0{
-    left: 0rem;
-}
-
-.right-0{
-    right: 0rem;
-}
-
-.z-10{
-    z-index: 10;
-}
-
-.z-50{
-    z-index: 50;
-}
-
-.items-center{
-    align-items: center;
-}
-
-.justify-between{
-    justify-content: space-between;
 }
